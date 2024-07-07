@@ -1,0 +1,491 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    color: white;
+}
+.navigate{
+    display: flex;
+  justify-content: space-around;
+  width: 1280px;
+  position: relative;
+  left: 16%;
+}
+.logo{
+    display: flex;
+    place-items: center;
+}
+.logo img{
+    width: 189px;
+}
+
+.iicon{
+    display: none;
+}
+.hamger{
+    display:flex ;
+    gap: 3rem;
+    align-items: center;
+}
+.hamger a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px;
+}
+.hamger a:hover{
+    color: rgb(255 179 26);
+}
+.hamger a:active{
+    border-bottom: 2px solid rgb(255 179 26);
+}
+.hamger li{
+    list-style: none;
+}
+
+.login{
+    align-items: center;
+    display: flex;
+}
+.login button{
+    width: 130px;
+    padding: 12px;
+    background-image: linear-gradient(to right, rgb(255, 189, 29), rgb(252, 160, 0));
+    border-radius: 1rem;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px;
+}
+.login button:hover{
+    background-image: linear-gradient(to right,rgb(252, 160, 0), rgb(255, 189, 29));
+}
+.image{
+    margin-top: 2px;
+}
+
+.container{
+    width: 1095px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.main{
+    display: flex;
+    gap: 4rem;
+    text-align: justify;
+    top: 7rem;
+    position: relative;
+}
+
+.form{
+    width: 50%;
+    place-content: center;
+}
+.form button{
+    width: 120px;
+    padding: 8px;
+    background-image: linear-gradient(to right, rgb(255, 189, 29), rgb(252, 160, 0));
+    border-radius: 2rem;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 12px;
+    position: relative;
+    left: 8rem;
+}
+.form button:hover{
+    background-image: linear-gradient(to right,rgb(252, 160, 0), rgb(255, 189, 29));
+}
+.g{
+    display: grid;
+    gap: 0.5rem;
+}
+.g1{
+    grid-area: 1/1;
+}
+.g2{
+    grid-area: 1/2;
+}
+label{
+    color: rgb(47, 77, 51);
+    font-weight: 700;
+}
+input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 1rem;
+    border: 1px solid rgb(47, 77, 51);
+}
+textarea{
+    width: 90%;
+    padding: 15px;
+    border-radius: 1rem;
+    border: 1px solid rgb(47, 77, 51);
+}
+
+.textarea{
+    width: 532px;
+}
+.textarea h5{
+    margin: auto;
+    font-size: 20px;
+    color: rgb(255, 179, 26);
+}
+.textarea h4{
+    margin: auto;
+    font-size: 32px;
+}
+.textarea p{
+    font-size: 18px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8rem;
+}
+.map iframe{
+    z-index: 1;
+}
+.map h4{
+    font-size: 30px;
+}
+
+.info{
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+.box img{
+    width: 32px;
+    height: 32px;
+}
+.boxtext{
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+}
+.boxtext h3{
+    font-size: 17px;
+    color: rgb(255, 179, 26);
+}
+.boxtext p{
+    font-size: 14px;
+}
+
+.location{
+    display: flex;
+    gap: 2rem;
+    margin-top: 10rem;
+}
+.places{
+    width: 520px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.flags{
+    display: flex;
+    gap: 1.25rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.flags h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.flags p{
+    font-size: 14px;
+}
+.jed{
+    width: 110%;
+    line-height: 1rem;
+    box-shadow: 2px 4px 12px 6px rgba(0, 0, 0, 0.30);
+}
+.jedin{
+    padding: 1rem;
+}
+.usa{
+    width: 110%;
+    line-height: 1rem;
+    box-shadow: 2px 4px 12px 6px rgba(0, 0, 0, 0.30);
+}
+.usain{
+    padding: 1rem;
+}
+.pak{
+    width: 110%;
+    line-height: 1rem;
+    box-shadow: 2px 4px 12px 6px rgba(0, 0, 0, 0.30);
+}
+.pakin{
+    padding: 1rem;
+}
+.timings{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: rgb(47, 77, 51);
+    border-radius: 0.5rem;
+}
+.hbut{
+    position: absolute;
+    top: 44.5rem;
+}
+.hbut button{
+    width: 120px;
+    padding: 12px;
+    background-image: linear-gradient(to right, rgb(255, 189, 29), rgb(252, 160, 0));
+    border-radius: 2rem;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px;
+}
+.clock{
+    position: absolute;
+    top: 43rem;
+    left: 57.5rem;
+}
+.hbut button:hover{
+     background-image: linear-gradient(to right,rgb(252, 160, 0), rgb(255, 189, 29));
+}
+.time{
+    padding: 2rem 0px 18px 0px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+}
+.time h3{
+    font-weight: 800;
+}
+.time p{
+    line-height: 0px;
+}
+
+hr{
+    width: 100%;
+    background-color: #9191918a;
+    height: 3px;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: inherit;
+}
+.footer img{
+    width: 26px;
+    margin: 0px 8px;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    margin: 0px 8px;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 2rem;
+}
+.end p {
+  padding: 0px 1rem 0px 1rem;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px){
+.hamger li {
+    display: none;
+  }
+  .hamger.responsive a {
+    color: black;
+  }
+  .iicon{
+    display: flex;
+    position: absolute;
+    place-self: center;
+  }
+  .iicon a.icon {
+    background-color: #2F4D33;
+    color: white;
+    padding: 8px 14px 8px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 21px;
+  }
+  .hamger.responsive {
+    transition-duration: 0.8s;
+    display: flex;
+    position: absolute;
+    top: 83%;
+    z-index: 1;
+    padding: 20px;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+  }
+  .hamger a{
+      border-bottom: 2px none !important;
+      text-decoration: none;
+  }
+  .hamger.responsive li {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid rgb(255 179 26);
+    padding: 10px 0;
+    line-height: 2;
+  }
+  .hamger.responsive li:hover {
+    color: rgb(255 179 26);
+    transition-duration: 0.2s;
+  }
+  .hamger a:hover{
+    color: rgb(255 179 26);
+    transition-duration: 0.2s;
+  }
+
+  .navigate {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 0%;
+    width: auto;
+}
+.logo{
+    display: flex;
+}
+.hamger{
+    display: flex;
+}
+#amg{
+    background-image: url(images/collap-minus.svg);
+}
+
+
+.navigate{
+    width: auto;
+    left: 0px;
+}
+
+.container{
+    width: auto;
+}
+
+.main{
+    flex-direction: column;
+}
+
+.form{
+    width: auto;
+    display: flex;
+    place-content: center;
+}
+
+.location{
+    flex-direction: column-reverse;
+}
+
+.clock{
+    top: 66rem;
+    left: 4rem;   
+}
+
+.hbut{
+    top: 67rem;
+}
+}
+
+@media screen and (max-width: 420px) {
+
+.main{
+    top: 2rem;
+}
+
+.logo{
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+.image{
+    display: none;
+}
+.login p{
+    display: none;
+}
+
+.textarea{
+    width: auto;
+    padding: 0px 12px;
+}
+.info{
+    gap: 2rem;
+}
+.clock{
+        top: 71rem;
+    left: -1rem;
+}
+.hbut{
+    top: 73rem;
+}
+
+.flags{
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.pak{
+    width: auto;
+}
+.usa{
+    width: auto;
+}
+.jed{
+    width: auto;
+}
+.places{
+    width: auto;
+    place-items: center;
+}
+
+.map{
+    margin-top: 2rem;
+}
+
+.end{
+    width: auto;
+}
+.end p{
+    padding: 0px;
+}
+
+.footer{
+    flex-direction: column;
+    gap: 1rem;
+}
+}
